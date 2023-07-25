@@ -7,6 +7,7 @@ def balancedSums(arr):
     else:
         while l<r:
             mid = (r+l)//2
+            
             if sum(arr[:mid])==sum(arr[mid+1:]):
                 res='YES'
                 break
