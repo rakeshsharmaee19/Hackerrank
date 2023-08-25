@@ -19,7 +19,6 @@ def aVeryBigSum(ar):
         sum=sum+i
     return sum
     # Write your code here
-
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
